@@ -1,0 +1,385 @@
+
+/*网易logo顶部*/
+.wygame {
+  width: 100%;
+  background: #fbfbfb;
+}
+
+.wyLogo {
+  width: 1250px;
+  height: 57px;
+  margin: 0 auto;
+  line-height: 55px;
+}
+
+.wyLogo ul li:nth-child(3) a {
+  color: #bc2e2e;
+}
+
+.wyLogo ul {
+  width: 500px;
+}
+
+.wyLogo ul li {
+  float: left;
+}
+
+.wyLogo ul li a{
+  display:block;
+  line-height: 55px;
+  padding:0 20px;
+  color:#333;
+  font-size:12px;
+}
+.wyLogo ul li a:hover{
+  color: #bc2e2e;
+  border-bottom:2px solid  #bc2e2e;
+}
+
+/*banner部分*/
+
+.banner{
+  height:952px;
+  position: relative;
+}
+
+.banner .navpic{
+  background: url("../images/left_nav_bg_6b1e122.png") no-repeat center top;
+  z-index:5;
+  height:952px;
+  width:262px;
+  position: absolute;
+}
+.banner li.one{
+  width:268px;
+  height:90px;
+  position:absolute;
+  top:212px;
+  left:0;
+  cursor:pointer;
+  z-index:10;
+  
+}
+/*.banner li.one:hover{*/
+  /*background: url("../images/nav_hover_7928b1f.png") -6px 0 no-repeat;*/
+/*}*/
+.banner li.two{
+  width:268px;
+  height:90px;
+  position:absolute;
+  top:286px;
+  left:0;
+  cursor:pointer;
+  z-index:10;
+}
+.banner li.three{
+  width:268px;
+  height:90px;
+  position:absolute;
+  top:360px;
+  left:0;
+  cursor:pointer;
+}
+.banner li.four{
+  width:268px;
+  height:90px;
+  position:absolute;
+  top:433px;
+  left:0;
+  cursor:pointer;
+}
+.banner li.five{
+  width:268px;
+  height:90px;
+  position:absolute;
+  top:508px;
+  left:0;
+  cursor:pointer;
+}
+.banner li.six{
+  width:268px;
+  height:90px;
+  position:absolute;
+  top:582px;
+  left:0;
+  cursor:pointer;
+}
+.banner .logo{
+  position: absolute;
+  top:34px;
+  left:21px;
+  z-index:111;
+}
+.banner .left .shengxiu{
+  position: absolute;
+  top:22px;
+  left:53px;
+  display: block;
+  width:50px;
+  height:50px;
+  background: url("../images/nav_ico_b352b70.png") no-repeat;
+  z-index:100;
+}
+.banner .left .one p{
+  font-size:18px;
+  color:#242f77;
+  width:60px;
+  position:absolute;
+  top:36px;
+  right: 76px;
+  z-index:99;
+}
+.banner .left .yuling{
+  position: absolute;
+  top:22px;
+  left:53px;
+  display: block;
+  width:50px;
+  height:50px;
+  background: url("../images/nav_ico_b352b70.png") no-repeat  0 -92px;
+  z-index:200;
+}
+.banner .left .two p{
+  font-size:18px;
+  color:#242f77;
+  width:60px;
+  position:absolute;
+  top:36px;
+  right: 76px;
+  z-index:99;
+}
+.banner .left .xingshu{
+  position: absolute;
+  top:22px;
+  left:53px;
+  display: block;
+  width:50px;
+  height:50px;
+  background: url("../images/nav_ico_b352b70.png") no-repeat 0 -181px;
+  z-index:100;
+}
+.banner .left .three p{
+  font-size:18px;
+  color:#242f77;
+  width:60px;
+  position:absolute;
+  top:36px;
+  right: 76px;
+  z-index:99;
+}
+.banner .left .longjiang{
+  position: absolute;
+  top:22px;
+  left:53px;
+  display: block;
+  width:50px;
+  height:50px;
+  background: url("../images/nav_ico_b352b70.png") no-repeat 0 -270px;
+  z-index:100;
+}
+.banner .left .four p{
+  font-size:18px;
+  color:#242f77;
+  width:60px;
+  position:absolute;
+  top:36px;
+  right: 76px;
+  z-index:99;
+}
+.banner .left .yingsha{
+  position: absolute;
+  top:22px;
+  left:53px;
+  display: block;
+  width:50px;
+  height:50px;
+  background: url("../images/nav_ico_b352b70.png") no-repeat 0 -361px;
+  z-index:100;
+}
+.banner .left .five p{
+  font-size:18px;
+  color:#242f77;
+  width:60px;
+  position:absolute;
+  top:36px;
+  right: 76px;
+  z-index:99;
+}
+.banner .left .yeshou{
+  position: absolute;
+  top:22px;
+  left:53px;
+  display: block;
+  width:50px;
+  height:50px;
+  background: url("../images/nav_ico_b352b70.png") no-repeat 0 -455px;
+  z-index:100;
+}
+.banner .left .six p{
+  font-size:18px;
+  color:#242f77;
+  width:60px;
+  position:absolute;
+  top:36px;
+  right: 76px;
+  z-index:99;
+}
+
+.banner .left .img1{
+  background: url("../images/bg2_8496fb0.jpg") no-repeat;
+  height:100%;
+  width: 100%;
+  position: absolute;
+  display:block;
+}
+.banner .left .img2{
+  background: url("../images/bg3_6ce7ff3.jpg") no-repeat;
+  height:952px;
+  width: 100%;
+  position: absolute;
+  display:none;
+}
+.banner .left .img3{
+  background: url("../images/bg4_b1168ec.jpg") no-repeat;
+  height:952px;
+  width: 100%;
+  position: absolute;
+  display:none;
+}
+.banner .left .img4{
+  background: url("../images/bg5_7d6817f.jpg") no-repeat;
+  height:952px;
+  width: 100%;
+  position: absolute;
+  display:none;
+}
+.banner .left .img5{
+  background: url("../images/bg6_b5e49af.jpg") no-repeat;
+  height:952px;
+  width: 100%;
+  position: absolute;
+  display:none;
+}
+.banner .left .img6{
+  background: url("../images/bg7_8067cfc.jpg") no-repeat;
+  height:952px;
+  width: 100%;
+  position: absolute;
+  display:none;
+}
+.banner .left .img1 .power1{
+  position: absolute;
+  bottom:85px;
+  left:480px;
+}
+.banner .left .img2 .power2{
+  position: absolute;
+  bottom:85px;
+  left:480px;
+}
+.banner .left .img3 .power3{
+  position: absolute;
+  bottom:85px;
+  left:480px;
+}
+.banner .left .img4 .power4{
+  position: absolute;
+  bottom:85px;
+  left:480px;
+}
+.banner .left .img5 .power5{
+  position: absolute;
+  bottom:85px;
+  left:480px;
+}
+.banner .left .img6 .power6{
+  position: absolute;
+  bottom:85px;
+  left:480px;
+}
+.banner .left .img1 .name1{
+  position: absolute;
+  top:80px;
+  left:455px;
+}
+.banner .left .img2 .name2{
+  position: absolute;
+  top:80px;
+  left:455px;
+}
+.banner .left .img3 .name3{
+  position: absolute;
+  top:80px;
+  left:455px;
+}
+.banner .left .img4 .name4{
+  position: absolute;
+  top:80px;
+  left:455px;
+}
+.banner .left .img5 .name5{
+  position: absolute;
+  top:80px;
+  left:455px;
+}
+.banner .left .img6 .name6{
+  position: absolute;
+  top:80px;
+  left:455px;
+}
+
+/*底部*/
+
+.copy{
+  height:73px;
+  width:100%;
+  background-color:#000;
+  position:relative;
+}
+.copy .logo{
+  position:absolute;
+  left:300px;
+  top:21px;
+}
+.copy .logo1{
+  position:absolute;
+  top:21px;
+  left:420px;
+}
+.copy .jieshao{
+  color: #fff;
+  position:absolute;
+  top:18px;
+  left:600px;
+}
+.copy .copyright{
+  color: #fff;
+  position:absolute;
+  top:42px;
+  left:600px;
+}
+.copy .show{
+  height:26px;
+  width:142px;
+  background-color:#610000;
+  position: absolute;
+  top:42px;
+  left:900px;
+  text-align: center;
+}
+.copy a{
+  color:#fff;
+  line-height:26px;
+}
+.menpai{
+  position: absolute;
+  z-index:150;
+  top:30%;
+  right:0;
+}
+.banner .guanwang{
+  position: absolute;
+  right:335px;
+  top:20px;
+  z-index:300;
+}
